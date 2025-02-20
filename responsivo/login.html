@@ -55,52 +55,23 @@
         </div>
       </nav>
       <main>
-        <!-- jumbotron -->
-         <!-- -fluid hace responsivo -->
-        <section class="py-4 container-fluid">
-            <div class="row">
-                <!-- md-4 tamaño adaptable -->
-                <div class="col-md-4">
-                    <div class="img-fluid">
-                        <img src="./public/media/img/logo.png" class="col-md-12" alt="">
-                    </div>
-                </div>
-                <div class="col-md-8">
-                    <!-- display-1 - tamaño del h1 -->
-                    <h1 class="display-2">Hola Chicos</h1>
-                    <p class="display-5">Hola chicos, bienvenidos por favor ingresar a la plataforma</p>
-                    <button class="btn btn-primary" type="submit" name="ingresar">Ingresar</button>
-                </div>
+        <section class="container">
+            <div class="row justify-content-center align-items-center">
+                <form action="" name="login" class="col-5" method="post">
+                    <h1 class="display-4">Ingresa</h1>
+                    <div class="form-floating mb-3">
+                        <input type="email" class="form-control" id="floatingInput" placeholder="name@example.com">
+                        <label for="floatingInput">Email address</label>
+                      </div>
+                      <div class="form-floating mb-3">
+                        <input type="password" class="form-control" id="floatingPassword" placeholder="Password">
+                        <label for="floatingPassword">Password</label>
+                      </div>
+                      <button class="btn btn-primary col-12">Ingresar</button>
+                      <span>¿Aún no estas registrado? Ingresa <a href="">aquí</a></span>
+                </form>
             </div>
-            <!-- <h1 class="display-1">Hola Chicos</h1>
-            <p class="lead">Este es un ejemplo de jumbotron</p>
-            <button class="btn btn-dark">Click Here</button>  -->
         </section>
-     </main>
-     <section class="container-fluid py-4"></section>
-     <!-- promo -->
-     <section class="container">
-     <!-- justify content around - centrar -->
-        <div class="row justify-content-around">
-            <div class="col-md-3 text-center">
-                <i class="bi-alarm" style="font-size: 95px;"></i>
-                <hr>
-                <h2 class="">Promo 1</h2>
-                <p class="">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nostrum quam quis dignissimos, quidem assumenda laudantium molestias consectetur, repudiandae, dolorem earum necessitatibus repellat vel iure. Repellat amet voluptatibus consectetur laudantium vitae.</p>
-            </div>
-            <div class="col-md-3 text-center">
-                <i class="bi bi-tsunami" style="font-size: 95px; color: violet;"></i>
-                <hr>
-                <h2 class="">Promo 2</h2>
-                <p class="">Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur laborum vero architecto rerum eos amet est, facere, nulla provident laudantium beatae deleniti sunt illo incidunt. Dignissimos placeat numquam quidem quod.</p>
-            </div>
-            <div class="col-md-3 text-center">
-                <i class="bi bi-cake2" style="font-size: 95px;"></i>
-                <hr>
-                <h2 class="">Promo 3</h2>
-                <p class="">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Totam deleniti ipsam velit asperiores temporibus. Aut sit voluptate distinctio, expedita et facere, vitae suscipit culpa reprehenderit autem totam debitis at eos.</p>
-            </div>
-        </div>
-     </section>
+      </main>
 </body>
 </html>
